@@ -12,6 +12,7 @@ const Thumbnail = forwardRef(({ key, result }, ref) => {
         <p className="truncate max-w-md">{result.overview}</p>
         <h2 className="mt-1 text-2xl text-white transition-all duration-100 ease-in-out group-hover:font-bold">{result.title || result.original_name}</h2>
         <p className="flex items-center opacity-0 group-hover:opacity-100"> {result.media_type && `${result.media_type} `}&#8226;{" "}{result.release_date || result.first_air_date} &#8226;{" "} <ThumbUpIcon className="h-4" /> {result.vote_count} </p>
+
       </div>
     </div>
   )
