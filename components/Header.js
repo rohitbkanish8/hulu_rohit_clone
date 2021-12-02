@@ -13,7 +13,7 @@ const Header = () => {
         <HeaderItem title="Search" Icon={SearchIcon} />
         <HeaderItem title="Account" Icon={UserIcon} />
       </div>
-      <h1 className="text-5xl font-extrabold">hulu</h1>
+      <h1 className="text-5xl text-white font-extrabold">hulu</h1>
     </header>
   )
 }
